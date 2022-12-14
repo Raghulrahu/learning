@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    border:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.welcome{
+
+}
+.width-300{
+    width: 300px;
+}
+.hght-300{
+height: 300px;
+}
+
+.dy1-1,.dy1-2,.dy1-3,.dy1-4,.dy1-5,.dy1-6{
+    padding: 5px;
+    border-radius: 5px;
+    margin:10px;
+    min-width: 300px;
+     height: fit-content;
+
+}
+.dy1-1{   
+    background-color: aquamarine;
+}
+.dy1-2{   
+    background-color: rgb(255, 221, 127);
+}
+.dy1-3{   
+    background-color: rgb(127, 255, 176);
+}
+.dy1-4{   
+    background-color: rgb(127, 208, 255);
+}
+.dy1-5{   
+    background-color: rgb(253, 255, 127);
+}
+.dy1-6{   
+    background-color: rgb(214, 198, 243);
+}
+.all-cont{
+    display: flex;
+    flex-wrap:wrap;
+}
